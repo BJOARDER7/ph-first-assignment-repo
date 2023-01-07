@@ -82,7 +82,6 @@
   background-image: url('images/watch.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:fixed;
   padding: 30px;
   margin: 80px 130px;
   border-radius: 4px;
@@ -100,6 +99,41 @@
   border-radius: 4px;
 }
 /*-- Main: Call Section End */
+/*-- Main: Personal Blog Section Start */
+.personal-blog {
+  background-image: url('images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 20px 130px;
+}
+.my-blog {
+  padding: 10px 10px 10px 240px;
+  text-align: justify;
+}
+#txtarea {
+  border-radius: 4px;
+  margin-left: 240px;
+}
+#send-mail {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 240px;
+}
+.btn-reset-submit {
+  margin-left: 240px;
+}
+#reset, #submit {
+  background-color:dodgerblue;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+/*-- Main: Personal Blog Section End */
 /* Footer: Future Section Start */
 .footer {
   background-color: black;
